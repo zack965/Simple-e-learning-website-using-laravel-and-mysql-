@@ -1,0 +1,26 @@
+.header{
+    width: 60%;
+    margin-left: 20%;
+    background-color:#ecf0f1;
+
+}
+.header h1{
+    padding: 30px;
+    font-size: 55px;
+    padding-left: 140px;
+}
+.header h1:hover{
+    background-color: #bdc3c7;
+}
+.c{
+
+    padding: 50px;
+}
+.c:hover{
+    background-color: #bdc3c7;
+}
+.c p{
+    font-size: 30px;
+    font-weight: bold;
+}
+

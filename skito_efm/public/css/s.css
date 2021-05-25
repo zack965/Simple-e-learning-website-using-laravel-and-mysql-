@@ -1,0 +1,42 @@
+#countainer{
+    display: grid;
+    background-color:#1e272e;
+    grid-template-columns: 40% 60%;
+}
+#countainer #linkedVideos{
+    padding-right: 20px;
+    background-color: #1e272e;
+    height: 450px;
+    overflow: scroll;
+}
+#countainer #linkedVideos a{
+    color: white;
+    text-decoration: none;
+}
+#countainer #linkedVideos a:hover div{
+
+    background-color: #8d969e;
+}
+#countainer #Video{
+    margin-left: 20px;
+    background-color: #8d969e;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #1e272e;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #d2dae2;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: gold;
+  }
+
